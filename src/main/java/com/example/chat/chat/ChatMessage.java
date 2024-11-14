@@ -1,9 +1,11 @@
 package com.example.chat.chat;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Builder
 public class ChatMessage {
     private String content;
